@@ -1,0 +1,91 @@
+2025-01-22 17:29:29 - INFO - Appel API Vulners avec la requête : {'query': 'apple c-ares 1.34.2', 'type': 'cve'}
+2025-01-22 17:29:29 - INFO - Réponse API reçue avec succès pour la requête : apple c-ares 1.34.2
+2025-01-22 17:29:29 - INFO - Nombre de CVE récupérées pour apple c-ares 1.34.2 : 0
+2025-01-22 17:29:30 - INFO - Appel API Vulners avec la requête : {'query': 'apple c-ares 1.34.4', 'type': 'cve'}
+2025-01-22 17:29:30 - INFO - Réponse API reçue avec succès pour la requête : apple c-ares 1.34.4
+2025-01-22 17:29:30 - INFO - Nombre de CVE récupérées pour apple c-ares 1.34.4 : 0
+2025-01-22 17:29:31 - INFO - La mise à jour de c-ares de 1.34.2 à 1.34.4 est potentiellement risquée.
+2025-01-22 17:29:31 - INFO - Appel API Vulners avec la requête : {'query': 'apple icu4c@75 75.1', 'type': 'cve'}
+2025-01-22 17:29:31 - INFO - Réponse API reçue avec succès pour la requête : apple icu4c@75 75.1
+2025-01-22 17:29:31 - INFO - Nombre de CVE récupérées pour apple icu4c@75 75.1 : 20
+2025-01-22 17:29:32 - INFO - Appel API Vulners avec la requête : {'query': 'apple icu4c@75 75.1_1', 'type': 'cve'}
+2025-01-22 17:29:32 - INFO - Réponse API reçue avec succès pour la requête : apple icu4c@75 75.1_1
+2025-01-22 17:29:32 - INFO - Nombre de CVE récupérées pour apple icu4c@75 75.1_1 : 20
+2025-01-22 17:29:33 - INFO - La mise à jour de icu4c@75 de 75.1 à 75.1_1 est potentiellement risquée.
+2025-01-22 17:29:33 - INFO - Appel API Vulners avec la requête : {'query': 'apple libnghttp2 1.63.0', 'type': 'cve'}
+2025-01-22 17:29:33 - INFO - Réponse API reçue avec succès pour la requête : apple libnghttp2 1.63.0
+2025-01-22 17:29:33 - INFO - Nombre de CVE récupérées pour apple libnghttp2 1.63.0 : 0
+2025-01-22 17:29:34 - INFO - Appel API Vulners avec la requête : {'query': 'apple libnghttp2 1.64.0', 'type': 'cve'}
+2025-01-22 17:29:34 - INFO - Réponse API reçue avec succès pour la requête : apple libnghttp2 1.64.0
+2025-01-22 17:29:34 - INFO - Nombre de CVE récupérées pour apple libnghttp2 1.64.0 : 0
+2025-01-22 17:29:35 - INFO - La mise à jour de libnghttp2 de 1.63.0 à 1.64.0 est potentiellement risquée.
+2025-01-22 17:29:35 - INFO - Appel API Vulners avec la requête : {'query': 'apple libpq 16.4', 'type': 'cve'}
+2025-01-22 17:29:36 - INFO - Réponse API reçue avec succès pour la requête : apple libpq 16.4
+2025-01-22 17:29:36 - INFO - Nombre de CVE récupérées pour apple libpq 16.4 : 0
+2025-01-22 17:29:37 - INFO - Appel API Vulners avec la requête : {'query': 'apple libpq 17.2', 'type': 'cve'}
+2025-01-22 17:29:37 - INFO - Réponse API reçue avec succès pour la requête : apple libpq 17.2
+2025-01-22 17:29:37 - INFO - Nombre de CVE récupérées pour apple libpq 17.2 : 0
+2025-01-22 17:29:38 - INFO - La mise à jour de libpq de 16.4 à 17.2 est potentiellement risquée.
+2025-01-22 17:29:38 - INFO - Appel API Vulners avec la requête : {'query': 'apple libuv 1.49.2', 'type': 'cve'}
+2025-01-22 17:29:38 - INFO - Réponse API reçue avec succès pour la requête : apple libuv 1.49.2
+2025-01-22 17:29:38 - INFO - Nombre de CVE récupérées pour apple libuv 1.49.2 : 0
+2025-01-22 17:29:39 - INFO - Appel API Vulners avec la requête : {'query': 'apple libuv 1.50.0', 'type': 'cve'}
+2025-01-22 17:29:39 - INFO - Réponse API reçue avec succès pour la requête : apple libuv 1.50.0
+2025-01-22 17:29:39 - INFO - Nombre de CVE récupérées pour apple libuv 1.50.0 : 0
+2025-01-22 17:29:40 - INFO - La mise à jour de libuv de 1.49.2 à 1.50.0 est potentiellement risquée.
+2025-01-22 17:29:40 - INFO - Appel API Vulners avec la requête : {'query': 'apple mysql 9.0.1_4', 'type': 'cve'}
+2025-01-22 17:29:40 - INFO - Réponse API reçue avec succès pour la requête : apple mysql 9.0.1_4
+2025-01-22 17:29:40 - INFO - Nombre de CVE récupérées pour apple mysql 9.0.1_4 : 0
+2025-01-22 17:29:41 - INFO - Appel API Vulners avec la requête : {'query': 'apple mysql 9.2.0', 'type': 'cve'}
+2025-01-22 17:29:41 - INFO - Réponse API reçue avec succès pour la requête : apple mysql 9.2.0
+2025-01-22 17:29:41 - INFO - Nombre de CVE récupérées pour apple mysql 9.2.0 : 0
+2025-01-22 17:29:42 - INFO - La mise à jour de mysql de 9.0.1_4 à 9.2.0 est potentiellement risquée.
+2025-01-22 17:29:42 - INFO - Appel API Vulners avec la requête : {'query': 'apple node 22.10.0', 'type': 'cve'}
+2025-01-22 17:29:42 - INFO - Réponse API reçue avec succès pour la requête : apple node 22.10.0
+2025-01-22 17:29:42 - INFO - Nombre de CVE récupérées pour apple node 22.10.0 : 0
+2025-01-22 17:29:43 - INFO - Appel API Vulners avec la requête : {'query': 'apple node 23.6.1', 'type': 'cve'}
+2025-01-22 17:29:43 - INFO - Réponse API reçue avec succès pour la requête : apple node 23.6.1
+2025-01-22 17:29:43 - INFO - Nombre de CVE récupérées pour apple node 23.6.1 : 0
+2025-01-22 17:29:44 - INFO - La mise à jour de node de 22.10.0 à 23.6.1 est potentiellement risquée.
+2025-01-22 17:29:44 - INFO - Appel API Vulners avec la requête : {'query': 'apple oniguruma 6.9.9', 'type': 'cve'}
+2025-01-22 17:29:45 - INFO - Réponse API reçue avec succès pour la requête : apple oniguruma 6.9.9
+2025-01-22 17:29:45 - INFO - Nombre de CVE récupérées pour apple oniguruma 6.9.9 : 0
+2025-01-22 17:29:46 - INFO - Appel API Vulners avec la requête : {'query': 'apple oniguruma 6.9.10', 'type': 'cve'}
+2025-01-22 17:29:46 - INFO - Réponse API reçue avec succès pour la requête : apple oniguruma 6.9.10
+2025-01-22 17:29:46 - INFO - Nombre de CVE récupérées pour apple oniguruma 6.9.10 : 0
+2025-01-22 17:29:47 - INFO - La mise à jour de oniguruma de 6.9.9 à 6.9.10 est potentiellement risquée.
+2025-01-22 17:29:47 - INFO - Appel API Vulners avec la requête : {'query': 'apple postgresql@15 15.8_2', 'type': 'cve'}
+2025-01-22 17:29:47 - INFO - Réponse API reçue avec succès pour la requête : apple postgresql@15 15.8_2
+2025-01-22 17:29:47 - INFO - Nombre de CVE récupérées pour apple postgresql@15 15.8_2 : 20
+2025-01-22 17:29:48 - INFO - Appel API Vulners avec la requête : {'query': 'apple postgresql@15 15.10', 'type': 'cve'}
+2025-01-22 17:29:48 - INFO - Réponse API reçue avec succès pour la requête : apple postgresql@15 15.10
+2025-01-22 17:29:48 - INFO - Nombre de CVE récupérées pour apple postgresql@15 15.10 : 20
+2025-01-22 17:29:49 - INFO - La mise à jour de postgresql@15 de 15.8_2 à 15.10 est potentiellement risquée.
+2025-01-22 17:29:49 - INFO - Appel API Vulners avec la requête : {'query': 'apple python-tk@3.13 3.13.0', 'type': 'cve'}
+2025-01-22 17:29:49 - INFO - Réponse API reçue avec succès pour la requête : apple python-tk@3.13 3.13.0
+2025-01-22 17:29:49 - INFO - Nombre de CVE récupérées pour apple python-tk@3.13 3.13.0 : 20
+2025-01-22 17:29:50 - INFO - Appel API Vulners avec la requête : {'query': 'apple python-tk@3.13 3.13.1', 'type': 'cve'}
+2025-01-22 17:29:50 - INFO - Réponse API reçue avec succès pour la requête : apple python-tk@3.13 3.13.1
+2025-01-22 17:29:50 - INFO - Nombre de CVE récupérées pour apple python-tk@3.13 3.13.1 : 20
+2025-01-22 17:29:51 - INFO - La mise à jour de python-tk@3.13 de 3.13.0 à 3.13.1 est potentiellement risquée.
+2025-01-22 17:29:51 - INFO - Appel API Vulners avec la requête : {'query': 'apple python@3.12 3.12.7_1', 'type': 'cve'}
+2025-01-22 17:29:51 - INFO - Réponse API reçue avec succès pour la requête : apple python@3.12 3.12.7_1
+2025-01-22 17:29:51 - INFO - Nombre de CVE récupérées pour apple python@3.12 3.12.7_1 : 20
+2025-01-22 17:29:52 - INFO - Appel API Vulners avec la requête : {'query': 'apple python@3.12 3.12.8', 'type': 'cve'}
+2025-01-22 17:29:52 - INFO - Réponse API reçue avec succès pour la requête : apple python@3.12 3.12.8
+2025-01-22 17:29:52 - INFO - Nombre de CVE récupérées pour apple python@3.12 3.12.8 : 20
+2025-01-22 17:29:53 - INFO - La mise à jour de python@3.12 de 3.12.7_1 à 3.12.8 est potentiellement risquée.
+2025-01-22 17:29:53 - INFO - Appel API Vulners avec la requête : {'query': 'apple tcl-tk 8.6.15', 'type': 'cve'}
+2025-01-22 17:29:54 - INFO - Réponse API reçue avec succès pour la requête : apple tcl-tk 8.6.15
+2025-01-22 17:29:54 - INFO - Nombre de CVE récupérées pour apple tcl-tk 8.6.15 : 0
+2025-01-22 17:29:55 - INFO - Appel API Vulners avec la requête : {'query': 'apple tcl-tk 9.0.1', 'type': 'cve'}
+2025-01-22 17:29:55 - INFO - Réponse API reçue avec succès pour la requête : apple tcl-tk 9.0.1
+2025-01-22 17:29:55 - INFO - Nombre de CVE récupérées pour apple tcl-tk 9.0.1 : 0
+2025-01-22 17:29:56 - INFO - La mise à jour de tcl-tk de 8.6.15 à 9.0.1 est potentiellement risquée.
+2025-01-22 17:29:56 - INFO - Appel API Vulners avec la requête : {'query': 'apple wget 1.24.5', 'type': 'cve'}
+2025-01-22 17:29:56 - INFO - Réponse API reçue avec succès pour la requête : apple wget 1.24.5
+2025-01-22 17:29:56 - INFO - Nombre de CVE récupérées pour apple wget 1.24.5 : 0
+2025-01-22 17:29:57 - INFO - Appel API Vulners avec la requête : {'query': 'apple wget 1.25.0', 'type': 'cve'}
+2025-01-22 17:29:57 - INFO - Réponse API reçue avec succès pour la requête : apple wget 1.25.0
+2025-01-22 17:29:57 - INFO - Nombre de CVE récupérées pour apple wget 1.25.0 : 0
+2025-01-22 17:29:58 - INFO - La mise à jour de wget de 1.24.5 à 1.25.0 est potentiellement risquée.
