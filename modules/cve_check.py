@@ -1,12 +1,22 @@
 import requests
 import time
 import json
+from dotenv import load_dotenv
+import os
 from modules.logger_utils import setup_logger
 
+# Configuration du logger
 logger = setup_logger()
 
+# Charger les variables d'environnement depuis le fichier .env
+load_dotenv()
+
+# Récupérer la clé API depuis le fichier .env
 VULNERS_API_URL = "https://vulners.com/api/v3/search/lucene/"
-VULNERS_API_KEY = "SIBVJZ60QY6N4JZES5PLMEYLLV4KUXR8AYXUOF7DDT3IQ4QU1S7PHQ4J2UUOAIBC"
+VULNERS_API_KEY = os.getenv("VULNERS_API_KEY")
+
+if not VULNERS_API_KEY:
+    raise ValueError("La clé API Vulners n'est pas définie. Assurez-vous que le fichier .env est configuré.")
 
 # Drapeau global pour arrêter les requêtes en cas d'erreur API
 api_available = True
@@ -27,7 +37,8 @@ def call_vulners_api(query):
     Appelle l'API Vulners avec gestion des erreurs et des quotas.
     """
     headers = {
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
+        "X-Api-Key": VULNERS_API_KEY
     }
     payload = {
         "query": query,
