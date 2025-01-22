@@ -18,5 +18,5 @@ MajCVE est un outil spécialement conçu pour **macOS** qui permet de gérer les
 ### 1. Cloner le Repository  
 Clonez ce dépôt Git sur votre machine locale :
 ```bash
-git clone https://github.com/VotreNomUtilisateur/MajCVE.git
+git clone https://github.com/clement8426/majCVE.git
 cd MajCVE
